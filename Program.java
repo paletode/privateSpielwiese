@@ -1,7 +1,7 @@
 public class Program {
    public static void main(String[] args) {
       long startTime = System.currentTimeMillis(); // Zeit in Millisekunden erfassen
-      long duration = 20000; // 20 Sekunden in Millisekunden
+      long duration = 30000; // 20 Sekunden in Millisekunden
       
       for (int i = 0; ; i++) {
          if (System.currentTimeMillis() - startTime >= duration) {
